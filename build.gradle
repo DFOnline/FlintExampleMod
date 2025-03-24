@@ -25,7 +25,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Flint
-    modApi 'com.github.DFOnline:Flint:v2'
+    modApi "com.github.DFOnline:Flint:${project.flint_version}"
 
     // Adventure (MiniMessage)
     modImplementation include("net.kyori:adventure-platform-fabric:${project.adventure_fabric_version}") {

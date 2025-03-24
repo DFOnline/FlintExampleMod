@@ -1,6 +1,7 @@
 package dev.dfonline.flintexample;
 
 import dev.dfonline.flint.FlintAPI;
+import dev.dfonline.flintexample.feature.AwesomeCommandFeature;
 import dev.dfonline.flintexample.feature.TestFeature;
 import net.fabricmc.api.ClientModInitializer;
 
@@ -12,7 +13,9 @@ public class FlintExample implements ClientModInitializer {
         FlintAPI.confirmLocationWithLocate();
 
         FlintAPI.registerFeatures(
-                new TestFeature()
+                new TestFeature(),
+                new AwesomeCommandFeature()
+
         );
 
     }

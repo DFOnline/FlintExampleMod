@@ -1,3 +1,4 @@
 {
-  "feature.test": "You just witched from mode %s to mode %s!"
+  "feature.test": "You just switched from mode %s to mode %s!",
+  "feature.awesome": "Hey %s! You are awesome!"
 }
